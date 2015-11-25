@@ -522,11 +522,19 @@ bash /etc/seedbox-from-scratch/installRTorrent $RTORRENT1
 
 # 22.
 cd /var/www
-rm -f -r rutorrent
-svn checkout http://rutorrent.googlecode.com/svn/trunk/rutorrent
-svn checkout http://rutorrent.googlecode.com/svn/trunk/plugins
-rm -r -f rutorrent/plugins
-mv plugins rutorrent/
+#rm -f -r rutorrent
+# https://github.com/Novik/ruTorrent/trunk/
+# https://github.com/Novik/ruTorrent/trunk/plugins
+# svn co "$rutorrent_svn" "rutorrent"
+# svn update --set-depth=exclude plugins
+# svn co "https://github.com/Novik/ruTorrent/trunk/plugins"
+#
+git clone https://github.com/Novik/ruTorrent.git rutorrent
+
+#svn checkout http://rutorrent.googlecode.com/svn/trunk/rutorrent
+#svn checkout https://github.com/Novik/ruTorrent/trunk/plugins
+#rm -r -f rutorrent/plugins
+#mv plugins rutorrent/
 
 cp /etc/seedbox-from-scratch/action.php.template /var/www/rutorrent/plugins/diskspace/action.php
 
