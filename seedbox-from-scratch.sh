@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# To acess your seedbox
+# http://ip-addres-of-your-server/rutorrent
 #
+# To view info about all your users
+# http://ip-addres-of-your-server/seedboxInfo.php
 #
 # The Seedbox From Scratch Script
 #   By Notos ---> https://github.com/Notos/
