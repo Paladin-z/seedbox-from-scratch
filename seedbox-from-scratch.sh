@@ -560,6 +560,16 @@ make install
 cd /var/www/rutorrent/plugins
 svn co https://svn.code.sf.net/p/autodl-irssi/code/trunk/rutorrent/autodl-irssi
 cd autodl-irssi
+cp _conf.php conf.php
+chown -R www-data:www-data conf.php
+mkdir -p /home/$NEWUSER1/.irssi/scripts/autorun
+cd /home/$NEWUSER1/.irssi/script
+curl -sL http://git.io/vlcND | grep -Po '(?<="browser_download_url": ")(.*-v[\d.]+.zip)' | xargs wget --quiet -O autodl-irssi.zip
+unzip -o autodl-irssi.zip
+rm autodl-irssi.zip
+cp autodl-irssi.pl autorun/
+mkdir -p /home/$NEWUSER1/.autodl
+touch /home/$NEWUSER1/autodl.cfg
 
 # 30.
 
