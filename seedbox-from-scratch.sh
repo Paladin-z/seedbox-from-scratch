@@ -570,6 +570,7 @@ rm autodl-irssi.zip
 cp autodl-irssi.pl autorun/
 mkdir -p /home/$NEWUSER1/.autodl
 touch /home/$NEWUSER1/autodl.cfg
+chown -R $NEWUSER1: /home/$NEWUSER1/.irssi
 
 # 30.
 
