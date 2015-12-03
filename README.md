@@ -1,11 +1,15 @@
 ## The Seedbox From Scratch Script
 #### Current version = 2.1.9
 #### Last stable version = 2.1.8
-
+#### Copyright (c) 2013 Notos (https://github.com/Notos/) 
 This is a script I've being working for some time now. I decided to share it here because it has some good things to add:
 
 * A multi-user enviroment, you'll have scripts to add and delete users.
 * Linux Quota, to control how much space every user can use in your box.
+
+### Work-in-progress to update for new locations of autodlirssi, rutorrent, fix some errors
+### Feel free to use but be warned this is not finished
+### Paladinz 3-12-2015
 
 ## Installed software
 * ruTorrent 3.4 + official plugins
