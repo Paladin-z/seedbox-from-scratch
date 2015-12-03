@@ -7,12 +7,12 @@ This is a script I've being working for some time now. I decided to share it her
 * A multi-user enviroment, you'll have scripts to add and delete users.
 * Linux Quota, to control how much space every user can use in your box.
 
-### Work-in-progress to update for new locations of autodlirssi, rutorrent, fix some errors
-### Feel free to use but be warned this is not finished
+### Updated rutorrent location (github) & version to 3.7 and fixed autodlirssi AutodlFilesDownloader.js error
+### Tested on Debian 7 wheezy vm
 ### Paladinz 3-12-2015
 
 ## Installed software
-* ruTorrent 3.4 + official plugins
+* ruTorrent 3.7 + official plugins
 * rTorrent 0.9.2 or 0.9.3 (you can choose, downgrade and upgrade at any time)
 * Deluge 1.3.5 or 0.9.3 (you can choose, downgrade and upgrade at any time)
 * libTorrrent 0.13.2 or 0.12.9
