@@ -24,7 +24,7 @@
 #
 ######################################################################
 #
-#  git clone -b master https://github.com/Notos/seedbox-from-scratch.git /etc/seedbox-from-scratch
+#  git clone -b master https://github.com/Paladin-z/seedbox-from-scratch.git /etc/seedbox-from-scratch
 #  sudo git stash; sudo git pull
 #
 #
