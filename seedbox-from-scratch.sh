@@ -560,6 +560,8 @@ make install
 cd /var/www/rutorrent/plugins
 svn co https://svn.code.sf.net/p/autodl-irssi/code/trunk/rutorrent/autodl-irssi
 cd autodl-irssi
+cp AutodlFilesDownloader.js AutodlFilesDownloader.js-
+wget -N https://raw.githubusercontent.com/Paladin-z/seedbox-from-scratch/v2.1.9/AutodlFilesDownloader.js
 cp _conf.php conf.php
 chown -R www-data:www-data conf.php
 mkdir -p /home/$NEWUSER1/.irssi/scripts/autorun
